@@ -1,0 +1,332 @@
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+text-decoration: none;
+color: #2E2F42;
+font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+.container {
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+/* HEADER */
+
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px
+}
+
+.logo1 {
+    color: #2E2F42;
+}
+
+.nav {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+    display: block;
+}
+
+.my-info{
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        padding: 24px 0;
+        display: block;
+}
+
+.my-info:hover, .my-info:focus {
+    color: #404bbf;
+}
+
+
+
+.nav:hover, .nav:focus{
+    color: #404bbf;
+}
+
+/* SECTION`s */
+
+.section-one .container{
+    align-items: center;
+}
+
+.section-one {
+    background-color: #2E2F42;
+text-align: center;
+padding-top: 188px;
+padding-bottom: 188px;
+}
+
+.title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        align-items: center;
+        color: #FFFFFF;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+
+}
+
+.btn{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+}
+
+.btn:hover, .order-service:focus{
+    background-color: #404BBF;
+}
+
+/* Section Two */
+
+.section-two{
+    padding: 120px 0;
+}
+.section-two-list{
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-item{
+    width: calc(100% - 72px  / 4);
+}
+
+.benefits-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+}
+
+.benefits-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Section three */
+
+.section-three {
+    background: #F4F4FD;
+    padding: 120px 0;
+}
+
+.section-three-list{
+    display: flex;
+    gap: 24px;
+}
+
+.section-three-title{
+            font-weight: 700;
+            font-size: 36px;
+            text-transform: capitalize;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2E2F42;
+            margin-bottom: 72px;
+}
+
+.section-three-photo{
+}
+.section-three-team{
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: calc(100% - 72px / 4);
+}
+
+.team-box{
+padding: 32px 0;
+}
+
+.team-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        text-align: center;
+}
+
+.section-three-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Section Four */
+
+.section-four{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.section-four-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.section-four-cards{
+/* border: 1px solid #e7e9fc;
+    width: 360px; */
+width: calc(100% - 144 px / 6);
+}
+
+.section-four-photo{
+    /* padding-bottom: 32px; */
+}
+
+.product-box{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.section-four-title{
+            font-weight: 700;
+            font-size: 36px;
+            text-transform: capitalize;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #2E2F42;
+            margin-bottom: 72px;
+}
+
+.section-four-product{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+            /* padding-left: 16px; */
+}
+
+.section-four-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer{
+    padding: 100px 0;
+    background-color: #2E2F42;
+}
+
+.logo-bottom{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        display: inline-block;
+        margin-bottom: 16px;
+}
+
+.footer-logo{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+        font-weight: 400;
+    max-width: 264px;
+}
