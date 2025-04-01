@@ -262,6 +262,10 @@ padding-bottom: 188px;
     position: relative;
 }
 
+.icon-link.team-link:hover{
+    background-color: #404BBF;
+}
+
 .svg-icons{
 position: absolute;
 fill: #F4F4FD;
@@ -389,6 +393,10 @@ overflow: hidden;
     background-color: #2E2F42;
 }
 
+.footer-container{
+    display: flex;
+}
+
 .logo-bottom{
         font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -411,4 +419,27 @@ overflow: hidden;
     letter-spacing: 0.02em;
         font-weight: 400;
     max-width: 264px;
+}
+
+.social-block{
+padding-left: 120px;
+}
+
+.footer-media-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.footer-icons-list{
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+                }
+
+.icon-link.footer-link:hover{
+    background-color: #31D0AA;
 }
