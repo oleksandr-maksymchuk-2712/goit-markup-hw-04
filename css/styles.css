@@ -240,8 +240,6 @@ padding-bottom: 188px;
             margin-bottom: 72px;
 }
 
-.section-three-photo{
-}
 .section-three-team{
     background-color: #FFFFFF;
     text-align: center;
@@ -316,8 +314,10 @@ padding-bottom: 120px;
 width: calc(100% - 144 px / 6);
 }
 
-.section-four-photo{
-    /* padding-bottom: 32px; */
+.section-four-cards:hover .text-background{
+    transform: translateY(0);
+    transition: transform 300ms ease;
+    
 }
 
 .product-box{
@@ -354,6 +354,12 @@ border-top: none;
     letter-spacing: 0.02em;
 }
 
+.card-box{
+position: relative;
+overflow: hidden;
+}
+
+
 .text-background{
     color: #F4F4FD;
     background-color: #4D5AE5;
@@ -363,9 +369,14 @@ border-top: none;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 40px;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 0;
+    transform: translateY(100%);
+
+    
 }
 /* Footer */
 
